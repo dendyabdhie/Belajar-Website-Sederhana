@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  padding: 0 0px;
+}
+
+/* Header */
+
+.header .judul {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.header ul {
+  margin-top: -10px;
+  text-align: center;
+  margin-left: -15px;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.header ul li a {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.header a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Akhir Header */
+
+/* Hero */
+.hero {
+  height: 400px;
+  background-image: url(img/hero.png);
+  background-size: cover;
+  background-position: 0 -810px;
+  margin-top: 40px;
+}
+
+/* Content */
+
+.content h2{
+  text-align: center;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-top:50px;
+}
+
+.content .penulis {
+  font-size: 15px;
+  margin-top: -25px;
+  text-align: center;
+}
+
+.content .penulis a {
+  color: white;
+  text-decoration: none;
+}
+
+/* main */
+.main {
+  padding: 20px;
+  width: 800px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.main p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+/* sidebar */
+
+.sidebar {
+  width: 400px;
+  float: right;
+  margin-top: 70px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar img {
+  width: 150px;
+  float: left;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Akhir Content */
+
+/* Footer */
+
+.footer {
+  color: black;
+  padding: 3px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 0;
+}
+
+.footer .copy {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* Akhir Footer */
+
+
+/* Clearfix */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf::before,
+.cf::after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf::after {
+  clear: both;
+}
+
+/**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+.cf {
+  *zoom: 1;
+}
