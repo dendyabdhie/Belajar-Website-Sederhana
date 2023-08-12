@@ -1,57 +1,56 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
   background-color: #000000;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   margin: 0;
+  padding: 0;
 }
+
 
 img {
   width: 100%;
 }
 
+
 .container {
   width: 1200px;
   margin: auto;
-  padding: 0 0px;
 }
 
-/* Header */
 
+/* Header */
 .header .judul {
   font-size: 60px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
-
 }
 
 .header ul {
   margin-top: -10px;
   text-align: center;
-  margin-left: -15px;
 }
 
 .header ul li {
   display: inline-block;
-  margin-right: 20px;
   font-size: 20px;
 }
 
 .header ul li a {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-weight: bold;
   text-decoration: none;
   padding: 10px;
   border-radius: 10px;
+  margin: 0 20px;
 }
 
 .header a:hover {
-  background-color: white;
+  background-color: #ffffff;
   color: black;
 }
-
 /* Akhir Header */
+
 
 /* Hero */
 .hero {
@@ -61,13 +60,13 @@ img {
   background-position: 0 -810px;
   margin-top: 40px;
 }
+/* Akhir Hero */
+
 
 /* Content */
-
 .content h2{
   text-align: center;
   font-size: 40px;
-  text-align: center;
   font-weight: bold;
   margin-top:50px;
 }
@@ -79,7 +78,7 @@ img {
 }
 
 .content .penulis a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -97,40 +96,35 @@ img {
 }
 
 /* sidebar */
-
 .sidebar {
   width: 400px;
+  min-height: 700px;
   float: right;
-  margin-top: 70px;
   padding: 20px;
   box-sizing: border-box;
+  padding-top: 90px;
 }
 
 .sidebar img {
   width: 150px;
-  float: left;
   margin: 10px;
   text-align: center;
 }
-
 /* Akhir Content */
 
-/* Footer */
 
+/* Footer */
 .footer {
   color: black;
   padding: 3px;
-  background-color: rgb(255, 255, 255);
-  margin-bottom: 0;
+  background-color: #ffffff;
 }
 
 .footer .copy {
-  font-size: 16px;
   font-weight: bold;
-  background-color: #fff;
+  background-color: #ffffff;
   text-align: center;
 }
-
 /* Akhir Footer */
 
 
